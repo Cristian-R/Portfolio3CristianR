@@ -1,0 +1,12 @@
+#randPara{
+    border:solid 2px black;
+    color:blue;
+}
+#removePara{
+    border:solid 2px yellow;
+    color:orangered;
+}
+html{
+    background-color: yellowgreen;
+    font-size:18px; 
+}

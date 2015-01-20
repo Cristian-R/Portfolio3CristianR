@@ -12,7 +12,7 @@
  */
 
 $("document").ready(function() {
-    $(".Nike").css("background-color", "red");
+    $(".TR").css("background-color", "darkred");
     $('p:last').css({"background-color": "Red", "color": "black"});
     $('p:first').css({"background-color": "Green", "color": "white"});
 
@@ -31,7 +31,11 @@ $("document").ready(function() {
 
 
 });
-
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 function removeAPara() {
     $('#randPara p:last').remove();
 }
@@ -47,17 +51,16 @@ function replaceWText() {
 
 
 
-
 function mouseOverMe() {
-    $("h1").html("Bayern is the best");
+    $("h1").html("hello");
 }
 
 function mouseOutMe() {
-    $('h1').html('Bayern Munich');
+    $('h1').html('Hi');
 }
 
 function mouseClick() {
-    $('p').html("BEST GOALIE IN  THE WORLD");
+    $('p').html("Hello once again!!!!!!!!!!");
 }
 
 
